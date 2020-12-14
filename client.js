@@ -35,7 +35,7 @@ function guessWho() {
     if (index === secretNumber) {
         $(this).children().addClass('winner')
         setTimeout(function () {
-            alert("VICTORY!! YOU GUESSED IT!! GET READY TO PLAY AGAIN TO PLAY AGAIN");
+            alert("VICTORY!! YOU GUESSED IT!! GET READY TO PLAY AGAIN");
         }, 1000);
         setTimeout(function () {
             location.reload();
