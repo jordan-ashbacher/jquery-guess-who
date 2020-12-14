@@ -1,0 +1,8 @@
+div {
+    display: inline-block;
+    margin:5px;
+}
+
+.winner {
+    border: 8px solid limegreen;
+}
