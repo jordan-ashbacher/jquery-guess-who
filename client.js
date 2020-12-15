@@ -36,12 +36,13 @@ function guessWho() {
         $(this).children().addClass('winner')
         setTimeout(function () {
             alert("VICTORY!! YOU GUESSED IT!! GET READY TO PLAY AGAIN");
-        }, 1000);
+        }, 500);
         setTimeout(function () {
             location.reload();
         }, 3000);
     } else {
         alert('no no no no no no no, try again')
+        $(this).fadeOut('slow')
     }
 
 
